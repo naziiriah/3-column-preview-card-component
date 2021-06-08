@@ -10,30 +10,46 @@ body{
     margin: 100px auto;
 }
 .columns{
-    height:450px;
+    height:350px;
     width:900px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    margin:100px auto;
+    margin:100px ;
     font-size: 15px;
     font-weight: 400;
     color:#fff;
+    border-radius: 10%;
 }
 #sedan{
     background-color: hsl(31, 77%, 52%);
-    
+    padding:30px;
+}
+#sedan button{
+    color:hsl(31, 77%, 52%);
 }
 #suvs{
     background-color: hsl(184, 100%, 22%);
     padding: 30px;
 }
+#suvs button{
+    color:hsl(184, 100%, 22%);
+}
 #luxury{
     background-color:hsl(179, 100%, 13%);
     padding: 30px 30px 50px 30px;
 }
-#span{
-    font: bolder 26px ;
-    padding-bottom: 50px;
-
-    
+#luxury button{
+    color:hsl(179, 100%, 13%);
+}
+button{
+    bottom: 100;
+    border-radius:5cm;
+    height: 27px;
+    width:100px;
+    position:relative;
+    margin:70px 0 20px 0px;
+}
+aside{
+    padding: 20px 0 20px ;
+    font:25px bold;
 }
